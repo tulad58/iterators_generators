@@ -7,7 +7,7 @@ def flat_generator(list_of_lists):
         for el in list:
             yield el
 
-
+# Не могу понять, как в 1 задании без доп списка сделать?
 def test_2():
 
     list_of_lists_1 = [
@@ -30,3 +30,4 @@ def test_2():
 
 if __name__ == '__main__':
     test_2()
+
